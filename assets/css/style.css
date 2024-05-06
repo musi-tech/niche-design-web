@@ -1180,8 +1180,8 @@ a {
 /* Personal Details*/
 .left-image {
   float: left; /* Float the image to the left */
-  width: 300%; /* Set the width of the image */
-  max-width: 500px; /* Set maximum width to maintain image quality */
+  width: 50%; /* Set the width of the image */
+  max-width: 100px; /* Set maximum width to maintain image quality */
   margin-right: 70px;
   height: auto; /* Add margin to create space between image and text */
 }
@@ -1189,8 +1189,8 @@ a {
 .right-introduction {
   overflow: hidden; /* Clear the float */
 }
-
 /* Responsive layout */
+
 @media only screen and (max-width: 768px) {
   .left-image {
     float: none; /* Remove float on smaller screens */
@@ -1199,7 +1199,6 @@ a {
     margin-right: 0; /* Remove margin */
   }
 }
-
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
